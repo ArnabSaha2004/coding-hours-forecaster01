@@ -1,0 +1,20 @@
+{
+  "appId": "com.codinghours.forecaster",
+  "appName": "Coding Hours Forecaster",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "iosScheme": "https",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#2563eb"
+    },
+    "StatusBar": {
+      "style": "dark",
+      "backgroundColor": "#2563eb"
+    }
+  }
+}

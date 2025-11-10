@@ -1,0 +1,14 @@
+{
+  "name": "coding-hours-forecaster-app",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "setup": "npm --prefix backend i && npm --prefix frontend i",
+    "dev": "concurrently -k -n backend,frontend -c blue,magenta \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "build": "npm --prefix frontend run build",
+    "lint": "echo 'Add ESLint later'"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

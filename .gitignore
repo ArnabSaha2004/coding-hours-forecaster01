@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+.env
+backend/.env
+frontend/.env
+*.log
+.DS_Store
+
+# Capacitor / Mobile
+frontend/ios/
+frontend/android/
+.capacitor/
+

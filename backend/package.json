@@ -1,0 +1,23 @@
+{
+  "name": "coding-hours-forecaster-backend",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "setup-db": "node setup-db.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "coding-hours-forecaster-app": "file:..",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+  "mongoose": "^7.4.0",
+    "mysql2": "^3.15.3",
+    "pg": "^8.16.3",
+    "zod": "^3.23.8"
+  }
+}
